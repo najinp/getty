@@ -1,11 +1,16 @@
+import './App.css'
 import React from 'react'
 import Header from './Header'
+import MainVisual from './MainVisual'
 
 const App = () => {
   return (
-    <div>
+    <wrapper>
       <Header />
-    </div>
+      <main>
+        <MainVisual />
+      </main>
+    </wrapper>
   )
 }
 
